@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Incremente from './Incremente';
+import Liste from './Liste';
+import SupprimerElement from './SupprimerElement';
+import GestionFormulaire from './GestionFormulaire';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Incremente />
+    <Liste />
+    <SupprimerElement />
+    <GestionFormulaire />
   </React.StrictMode>
 );
 
