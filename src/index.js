@@ -5,7 +5,13 @@ import Incremente from './Incremente';
 import Liste from './Liste';
 import SupprimerElement from './SupprimerElement';
 import GestionFormulaire from './GestionFormulaire';
+import AjouterElement from './AjouterElement';
+import ViderChamp from './ViderChamp';
+import DecouperComposant from './DecouperComposant';
+import DecouperForm from './DecouperForm';
 import reportWebVitals from './reportWebVitals';
+import ReusabiliteComposants from './ReusabiliteComposants';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +20,11 @@ root.render(
     <Liste />
     <SupprimerElement />
     <GestionFormulaire />
+    <AjouterElement />
+    <ViderChamp />
+    <DecouperComposant />
+    <DecouperForm />
+    <ReusabiliteComposants />
   </React.StrictMode>
 );
 

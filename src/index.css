@@ -16,3 +16,11 @@ code {
 h1 {
   font-size: 1.2rem;
 }
+
+button {
+  margin-left: 5px;
+}
+
+form {
+  margin-bottom: 15px;
+}
